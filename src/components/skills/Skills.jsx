@@ -1,6 +1,6 @@
 import React from 'react'
 import './skills.css'
-import { BsPatchCheckFill } from 'react-icons/bs'
+import { BsPatchCheckFill} from 'react-icons/bs'
 
 const Skills = () => {
   return (
@@ -12,14 +12,14 @@ const Skills = () => {
           <h3>Frontend Development</h3>
           <div className="experience_content">
             <article className='experience_details'>
-              <BsPatchCheckFill />
+              <BsPatchCheckFill className='experience_details-icon' />
               <div>
                 <h4>HTML</h4>
                 <small className='text-light'>Experienced</small>
               </div>
             </article>
             <article className='experience_details'>
-              <BsPatchCheckFill />
+              <BsPatchCheckFill className='experience_details-icon' />
               <div>
                 <h4>CSS</h4>
                 <small className='text-light'>Intermidiate</small>
@@ -27,7 +27,7 @@ const Skills = () => {
             
             </article>
             <article className='experience_details'>
-              <BsPatchCheckFill />
+              <BsPatchCheckFill className='experience_details-icon' />
               <div>
                 <h4>JavaScript</h4>
                 <small className='text-light'>Experienced</small>
@@ -35,7 +35,7 @@ const Skills = () => {
   
             </article>
             <article className='experience_details'>
-              <BsPatchCheckFill />
+              <BsPatchCheckFill className='experience_details-icon' />
               <div>
                 <h4>Bootstrap</h4>
                 <small className='text-light'>Experienced</small>
@@ -43,7 +43,7 @@ const Skills = () => {
               
             </article>
             <article className='experience_details'>
-              <BsPatchCheckFill />
+              <BsPatchCheckFill className='experience_details-icon' />
               <div>
                 <h4>React</h4>
                 <small className='text-light'>Experienced</small>
@@ -56,14 +56,14 @@ const Skills = () => {
         <h3>Backend Development</h3>
           <div className="experience_content">
             <article className='experience_details'>
-              <BsPatchCheckFill />
+              <BsPatchCheckFill className='experience_details-icon' />
               <div>
                 <h4>NodeJS</h4>
                 <small className='text-light'>Experienced</small>
               </div>
             </article>
             <article className='experience_details'>
-              <BsPatchCheckFill />
+              <BsPatchCheckFill className='experience_details-icon' />
               <div>
                 <h4>MongoDB</h4>
                 <small className='text-light'>Intermediate</small>
@@ -71,21 +71,21 @@ const Skills = () => {
               
             </article>
             <article className='experience_details'>
-              <BsPatchCheckFill />
+              <BsPatchCheckFill className='experience_details-icon' />
               <div>
                 <h4>MySQL</h4>
                 <small className='text-light'>Experienced</small>
               </div>
             </article>
             <article className='experience_details'>
-              <BsPatchCheckFill />
+              <BsPatchCheckFill className='experience_details-icon' />
               <div>
                 <h4>Python</h4>
                 <small className='text-light'>Experienced</small>
               </div>
             </article>
             <article className='experience_details'>
-              <BsPatchCheckFill />
+              <BsPatchCheckFill className='experience_details-icon' />
               <div>
                 <h4>Python</h4>
                 <small className='text-light'>Experienced</small>
