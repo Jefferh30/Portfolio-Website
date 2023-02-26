@@ -7,7 +7,7 @@
 .service {
     background: var(--color-bg-variant);
     border-radius: 0 0 2rem 2rem;
-    border: 1 solid var(--color-primary);
+    border: 1px solid var(--color-primary);
     height: fit-content;
     transition: var(--transition);
 
@@ -19,7 +19,7 @@
     cursor: default;
 }
 
-.servide_head {
+.service_head {
     background: var(--color-primary);
     padding: 2rem;
     border-radius: 0 0 2rem 2rem;
@@ -32,7 +32,7 @@
     text-align: center;
 }
 
-.service-list {
+.service_list {
     padding: 2rem;
 }
 
