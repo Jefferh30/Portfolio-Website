@@ -1,22 +1,45 @@
-import React, { useState} from 'react'
-import './nav.css'
-import {AiOutlineHome} from 'react-icons/ai'
-import {AiOutlineUser} from 'react-icons/ai'
-import {BiBook} from 'react-icons/bi'
-import {RiServiceLine} from 'react-icons/ri'
-import {BiMessageSquareDetail} from 'react-icons/bi'
+import React from 'react';
+import './nav.css';
 
-const Nav = () => {
-  const [activeNav, setActiveNav] = useState('#')
+function Nav() {
   return (
-    <nav>
-      <a href='#' onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}><AiOutlineHome /></a>
-      <a href='#about' onClick={() => setActiveNav('#about')} className={activeNav === '#about' ? 'active' : ''}><AiOutlineUser /></a>
-      <a href='#skills' onClick={() => setActiveNav('#skills')} className={activeNav === '#skills' ? 'active' : ''}><BiBook /></a>
-      <a href='#services' onClick={() => setActiveNav('#services')} className={activeNav === '#services' ? 'active' : ''}><RiServiceLine /></a>
-      <a href='#contact' onClick={() => setActiveNav('#contact')} className={activeNav === '#contact' ? 'active' : ''}><BiMessageSquareDetail /></a>
-    </nav>
-  )
+
+    <div className='nav-container'>
+      <nav className="navbar">
+        <ul className="navbar-nav">
+          <li className="nav-item">
+            <a href="#" className="nav-link">
+              Home
+            </a>
+          </li>
+          <li className="nav-item">
+            <a href="#about" className="nav-link">
+              About
+            </a>
+          </li>
+          <li className="nav-item">
+            <a href="#skills" className="nav-link">
+              Skills
+            </a>
+          </li>
+          <li className="nav-item">
+            <a href="#services" className="nav-link">
+              Services
+            </a>
+          </li>
+          <li className="nav-item">
+            <a href="#portfolio" className="nav-link">
+              Portfolio
+            </a>
+          </li>
+        </ul>
+        <div className="navbar-buttons">
+          <button className="btn">Download CV</button>
+          <button className="btn btn-primary">Contact me</button>
+        </div>
+      </nav>
+    </div>
+  );
 }
 
-export default Nav
+export default Nav;
