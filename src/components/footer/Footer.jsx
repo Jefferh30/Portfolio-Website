@@ -2,13 +2,13 @@ import React from 'react'
 import './footer.css'
 import {FaFacebookF} from 'react-icons/fa'
 import {FiInstagram} from 'react-icons/fi'
-import {IoLogoTwitter} from 'react-icons/io'
+import {FaGithub} from 'react-icons/fa'
 
 
 const Footer = () => {
   return (
     <footer>
-      <a href='#' className='footer_logo'>LOGO</a>
+      <a href='#' className='footer_logo'>Jeff's portfolio</a>
       <ul className="permalinks">
         <li><a href='#'>Home</a></li>
         <li><a href='#about'>About</a></li>
@@ -18,9 +18,9 @@ const Footer = () => {
       </ul>
 
       <div className="footer_socials">
-        <a href='https://facebook.com'><FaFacebookF /></a>
-        <a href='https://instagram.com'><FiInstagram /></a>
-        <a href='https://twitter.com'><IoLogoTwitter /></a>
+        <a href='https://github.com/Jefferh30'><FaGithub /></a>
+        <a href='https://web.facebook.com/jefferson.huera.5'><FaFacebookF /></a>
+        <a href='https://www.instagram.com/jeffersonhuera/'><FiInstagram /></a> 
       </div>
 
       <div className="footer_copyright">
