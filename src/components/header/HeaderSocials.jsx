@@ -1,12 +1,13 @@
 import React from 'react'
-import {BsLinkedin} from 'react-icons/bs'
 import {FaGithub} from 'react-icons/fa'
+import {MdEmail} from 'react-icons/md'
 
 const HeaderSocials = () => {
   return (
     <div className='header_socials'>
-        <a href='https://linkedin.com' target="_blank"><BsLinkedin /></a>
-        <a href='https://github.com' target="_blank"><FaGithub /></a>
+      <a href='https://github.com/Jefferh30' target="_blank"><FaGithub /></a>
+      <a href='mailto:jefferh30@gmail.com' target="_blank"><MdEmail /></a>
+        
     </div>
   )
 }
