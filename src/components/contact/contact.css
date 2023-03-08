@@ -5,6 +5,14 @@
     gap: 12%;
 }
 
+#contact h2 {
+    color: var(--color-bg);
+}
+
+#contact h5 {
+    color: var(--color-primary);
+}
+
 .contact_options {
     display: flex;
     flex-direction: column;
@@ -12,7 +20,7 @@
 }
 
 .contact_option {
-    background: var(--color-bg-variant);
+    background: var(--color-bg);
     padding: 1.2rem;
     border-radius: 1.2rem;
     text-align: center;
@@ -22,7 +30,8 @@
 
 .contact_option:hover {
     background: transparent;
-    border-color: var(--color-primary-variant);
+    border-color: var(--color-bg);
+    color: var(--color-bg);
 }
 
 .contact_option-icon {
@@ -36,6 +45,10 @@
     font-size: 0.8rem;
 }
 
+.contact_option:hover > a{
+    color: blue;
+}
+
 /* ====== FORM ====== */
 
 form {
@@ -46,12 +59,30 @@ form {
 
 input, textarea {
     width: 100%;
-    padding: 1.5rem;
+    padding: 1rem;
+    font-size: 1.2rem;
     border-radius: 0.5rem;
     background: transparent;
-    border: 2px solid var(--color-primary-variant);
+    border: 2px solid var(--color-bg);
     resize: none;
-    color: var(--color-white);
+    color: var(--color-bg);
+}
+
+.success-message {
+    margin-top: 2rem;
+}
+
+.success-icon{
+    font-size: 2rem;
+    color: var(--color-bg);
+    margin: 2rem auto;
+    display: flex;
+}
+
+.success-message p {
+    font-size: 1.5rem;
+    color: var(--color-bg);
+    text-align: center;
 }
 
 /*======= Tablets, medium devices ========*/
