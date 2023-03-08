@@ -1,6 +1,6 @@
 import React from 'react'
 import './about.css'
-import ME from '../../assets/me-about.jpg'
+import ME from '../../assets/web-developer-2.png'
 import {FaAward} from 'react-icons/fa'
 import {FiUsers} from 'react-icons/fi'
 import {VscFolderLibrary} from 'react-icons/vsc' 
@@ -8,7 +8,6 @@ import {VscFolderLibrary} from 'react-icons/vsc'
 const About = () => {
   return (
     <section id='about'>
-      <h5>Get To Know</h5>
       <h2>About Me</h2>
 
       <div className="container about_container">
@@ -22,21 +21,23 @@ const About = () => {
             <article className='about_card'>
               <FaAward className='about-icon'/>
               <h5>Experience</h5>
-              <small>3+ Years Working</small>
+              <small>3+ Years Working on the Web</small>
             </article>
             <article className='about_card'>
               <FiUsers className='about-icon'/>
-              <h5>Clients</h5>
-              <small>200+ Worldwide</small>
+              <h5>Users of my Sites</h5>
+              <small>500k+ Worldwide</small>
             </article>
             <article className='about_card'>
               <VscFolderLibrary className='about-icon'/>
               <h5>Projects</h5>
-              <small>80+ Completed</small>
+              <small>10+ Completed</small>
             </article>
           </div>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Praesentium aliquid modi accusamus ducimus quaerat corrupti ea, aspernatur eum excepturi. Est maxime deleniti labore sunt cumque natus blanditiis consequuntur reprehenderit nobis.</p>
-          <a href='#contact' className='btn btn-primary'>Contact Me</a>
+          <p>I'm an Aerospace Engineering graduate. During my time in University I discovered I really enjoy working on a computer. Since then, I have built websites, tools and created content that has helped thousands of students learn Math.</p>
+          <div className='btn-about'>
+            <a href='#contact' className='btn-contact'>Contact Me</a>
+          </div>
         </div>
       </div>
     </section>
