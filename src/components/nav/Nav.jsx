@@ -1,5 +1,6 @@
 import React from 'react';
 import './nav.css';
+import CV from '../../assets/cv.pdf'
 
 function Nav() {
   return (
@@ -34,8 +35,8 @@ function Nav() {
           </li>
         </ul>
         <div className="navbar-buttons">
-          <button className="btn">Download CV</button>
-          <button className="btn btn-primary">Contact me</button>
+          <a href={CV} download className='btn-download'>Download CV</a>
+          <a href="#contact" className='btn-contact'>Contact me</a>
         </div>
       </nav>
     </div>
