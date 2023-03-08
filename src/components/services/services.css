@@ -1,13 +1,26 @@
 .services_container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     gap: 3rem;
+    max-width: 950px;
+}
+
+#services h2 {
+    color: var(--color-bg);
+}
+
+#services h5 {
+    color: var(--color-primary);
+}
+
+#services p {
+    color: var(--color-bg);
 }
 
 .service {
     background: var(--color-bg-variant);
     border-radius: 0 0 2rem 2rem;
-    border: 1px solid var(--color-primary);
+    border: 1px solid var(--color-bg);
     height: fit-content;
     transition: var(--transition);
 
@@ -15,20 +28,19 @@
 
 .service:hover {
     background: transparent;
-    border-color: var(--color-primary-variant);
     cursor: default;
 }
 
 .service_head {
-    background: var(--color-primary);
+    background: var(--color-bg);
     padding: 2rem;
     border-radius: 0 0 2rem 2rem;
     box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1);
 }
 
 .service_head h3 {
-    color: var(--color-bg);
-    font-size: 1rem;
+    color: var(--color-white);
+    font-size: 1.4rem;
     text-align: center;
 }
 
@@ -44,8 +56,9 @@
 }
 
 .service_list-icon {
-    color: var(--color-primary);
+    color: var(--color-bg);
     margin-top: 2px;
+    font-size: 1.5rem;
 }
 
 .service-list p {
