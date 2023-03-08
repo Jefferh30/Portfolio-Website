@@ -10,70 +10,63 @@ const Services = () => {
       <div className="container services_container">
         <article className='service'>
           <div className="service_head">
-            <h3>UI/UX Design</h3>
-          </div>
-          <ul className='service_list'>
-            <li>
-              <BiCheck className='service_list-icon' />
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <BiCheck className='service_list-icon' />
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <BiCheck className='service_list-icon' />
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-            </li>
-            <li>
-              <BiCheck className='service_list-icon' />
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-            </li>
-          </ul>
-        </article>
-        <article className='service'>
-          <div className="service_head">
             <h3>Web Development</h3>
           </div>
           <ul className='service_list'>
             <li>
               <BiCheck className='service_list-icon' />
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+              <p>Responsive website design.</p>
             </li>
             <li>
               <BiCheck className='service_list-icon' />
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+              <p>Web application development.</p>
             </li>
             <li>
               <BiCheck className='service_list-icon' />
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+              <p>Website maintenance and support.</p>
             </li>
             <li>
               <BiCheck className='service_list-icon' />
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+              <p>Landing page design and development.</p>
+            </li>
+            <li>
+              <BiCheck className='service_list-icon' />
+              <p>Custom WordPress website.</p>
             </li>
           </ul>
         </article>
         <article className='service'>
           <div className="service_head">
-            <h3>Content Creation</h3>
+            <h3>SEO</h3>
           </div>
           <ul className='service_list'>
             <li>
               <BiCheck className='service_list-icon' />
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+              <p>Site speed analysis and optimization.</p>
             </li>
             <li>
               <BiCheck className='service_list-icon' />
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+              <p>Mobile responsiveness optimization.</p>
             </li>
             <li>
               <BiCheck className='service_list-icon' />
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+              <p>Duplicate content analysis and removal.</p>
             </li>
             <li>
               <BiCheck className='service_list-icon' />
-              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+              <p>Internal linking structure optimization.</p>
+            </li>
+            <li>
+              <BiCheck className='service_list-icon' />
+              <p>URL structure optimization.</p>
+            </li>
+            <li>
+              <BiCheck className='service_list-icon' />
+              <p>Structured data markup implementation.</p>
+            </li>
+            <li>
+              <BiCheck className='service_list-icon' />
+              <p>Image optimization and compression</p>
             </li>
           </ul>
         </article>
